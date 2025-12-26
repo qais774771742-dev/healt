@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+
+<header>
+    <h1>تواصل معنا</h1>
+</header>
+
+<nav>
+    <a href="h1.html">الرئيسية</a>
+    <a href="h2.html">نصائح</a>
+    <a href="h3.html">تواصل</a>
+</nav>
+
+<section>
+    <form onsubmit="sendMessage(); return false;">
+        <label>الاسم:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label>الرسالة:</label><br>
+        <textarea id="message" required></textarea><br><br>
+
+        <button type="submit">إرسال</button>
+    </form>
+
+    <p id="result"></p>
+</section>
+
+<script src="j.js"></script>
+</body>
+</html>
